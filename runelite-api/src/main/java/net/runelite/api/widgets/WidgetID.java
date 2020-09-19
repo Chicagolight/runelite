@@ -156,6 +156,7 @@ public class WidgetID
 	public static final int HALLOWED_SEPULCHRE_TIMER_GROUP_ID = 668;
 	public static final int BANK_PIN_GROUP_ID = 213;
 	public static final int HEALTH_OVERLAY_BAR_GROUP_ID = 303;
+	public static final int ROGUE_TRADER_PUZZLE_GROUP_ID = 288;
 
 	static class WorldMap
 	{
@@ -326,6 +327,12 @@ public class WidgetID
 	{
 		static final int CLUE_TEXT = 2;
 		static final int CLUE_SCROLL_ITEM_CONTAINER = 3;
+	}
+
+	public static class RogueTrader
+	{
+		public static final int FIRST_TILE = 10;
+		public static final int RUNE_GRID = 131;
 	}
 
 	static class Minimap
