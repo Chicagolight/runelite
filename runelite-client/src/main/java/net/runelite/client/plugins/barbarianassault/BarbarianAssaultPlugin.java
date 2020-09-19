@@ -123,7 +123,7 @@ public class BarbarianAssaultPlugin extends Plugin
 			MenuEntry[] menuEntries = client.getMenuEntries();
 			WidgetInfo callInfo = currentRound.getRoundRole().getCall();
 			Widget callWidget = client.getWidget(callInfo);
-			//String call = Calls.getOption(callWidget.getText());
+			String call = Calls.getOption(callWidget.getText());
 			MenuEntry correctCall = null;
 
 			entries.clear();
